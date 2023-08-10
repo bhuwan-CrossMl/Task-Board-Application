@@ -16,7 +16,7 @@ const AddCard = ({ addCard }) => {
                 borderRadius="md"
                 boxShadow="md"
                 flexDirection="row"
-                p={2}
+                p={2}        
           
             >
                 <Input
@@ -35,7 +35,7 @@ const AddCard = ({ addCard }) => {
                         setTitle("");
                     }}
                 >
-                    Add Card
+                    Add Cards
                 </Button>
             </Flex>
         </Flex>

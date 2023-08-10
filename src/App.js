@@ -27,7 +27,7 @@ function App() {
         <div className="message">
           <div className="word1">Agile</div>
           <div className="word2">with</div>
-          <div className="word3">AgileEx</div>
+          <div className="word3">Task</div>
         </div>
       </h1>
 
@@ -57,7 +57,7 @@ function App() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            {" Abderox"}
+           Bhu 1....
           </a>
 
         </Text>
