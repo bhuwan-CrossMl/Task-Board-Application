@@ -37,7 +37,7 @@ The Task Board Application is a web-based application that allows users to manag
    ```bash
    npm create-react-app task-board-app --template typescript
    cd task-board-app
-   npm install react-beautiful-dnd
+   npm install 
    ```
 4. Replace the content of the `src` folder with your own code.
 
