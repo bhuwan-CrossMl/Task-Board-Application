@@ -1,4 +1,4 @@
-import { Flex, Text, Button, Input, Spacer } from "@chakra-ui/react";
+import { Flex,  Button, Input} from "@chakra-ui/react";
 import React, { useState } from "react";
 
 const AddCard = ({ addCard }) => {

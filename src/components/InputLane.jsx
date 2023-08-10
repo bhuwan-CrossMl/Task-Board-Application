@@ -1,8 +1,8 @@
 import { Flex, Text } from "@chakra-ui/react";
 import { useDroppable } from "@dnd-kit/core";
-import KanbanCard from "./KanbanCard";
+import InputCard from "./InputCard";
 
-const KanbanLane = ({ title, items, color }) => {
+const InputLane = ({ title, items, color }) => {
 
     const { setNodeRef } = useDroppable({
         id: title,
@@ -33,7 +33,7 @@ const KanbanLane = ({ title, items, color }) => {
             >
                 {items.map(({title:item}, index) => (
                     
-                    <KanbanCard key={index} title={item} index={index} parent={title} />
+                    <InputCard key={index} title={item} index={index} parent={title} />
                 ))}
 
 
@@ -42,4 +42,4 @@ const KanbanLane = ({ title, items, color }) => {
     )
 }
 
-export default KanbanLane
+export default InputLane

@@ -1,11 +1,11 @@
 import { DndContext, rectIntersection } from "@dnd-kit/core";
-import KanbanLane from "./KanbanLane";
+import InputLane from "./InputLane";
 import AddCard from "./AddCard";
 import { Flex } from "@chakra-ui/react";
 import { useState } from "react";
 
 
-const KanbanBoard = () => {
+const DashBoard = () => {
     const [todoItems, setTodoItems] = useState([]);
     const [doneItems, setDoneItems] = useState([]);
     const [inProgressItems, setInProgressItems] = useState([]);
@@ -79,7 +79,7 @@ const KanbanBoard = () => {
                 <AddCard addCard={addNewCard} />
                 <Flex flex="3">
                     {arrayLanes.map(({ title, items, color }, index) => (
-                        <KanbanLane
+                        <InputLane
                             key={index}
                             title={title}
                             items={items}
@@ -93,4 +93,4 @@ const KanbanBoard = () => {
 
 }
 
-export default KanbanBoard
+export default DashBoard

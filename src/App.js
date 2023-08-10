@@ -1,5 +1,5 @@
-import { ChakraProvider, theme, Text, Heading, Flex, CardFooter } from "@chakra-ui/react";
-import KanbanBoard from "./components/KanbanBoard";
+import { ChakraProvider, theme, Text } from "@chakra-ui/react";
+import DashBoard from "./components/DashBoard";
 
 
 function App() {
@@ -32,7 +32,7 @@ function App() {
       </h1>
 
       </div>
-      <KanbanBoard />
+      <DashBoard />
       </div>
       <footer
         style={{
@@ -51,7 +51,7 @@ function App() {
           <span role="img" aria-label="love">
             ❤️
           </span>
-          by
+          by 
           <a
             href="https://github.com/abderox"
             target="_blank"
